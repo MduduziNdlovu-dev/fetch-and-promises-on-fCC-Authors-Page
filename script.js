@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return card;
     };
   
-    // Render authors with optional reset (e.g., after search)
+    // Render authors with optional reset 
     const renderAuthors = (reset = false) => {
       if (reset) {
         authorContainer.innerHTML = "";
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ? authorDataArr.filter(author => author.author.toLowerCase().includes(query))
         : [...authorDataArr];
   
-      renderAuthors(true); // reset render with filtered data
+      renderAuthors(true); 
     };
   
     // Toggle dark mode

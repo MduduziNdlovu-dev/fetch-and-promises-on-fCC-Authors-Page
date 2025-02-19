@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>freeCodeCamp News Author Page</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <h1 class="title">freeCodeCamp News Author Page</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp News Authors</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">🚀 freeCodeCamp News Authors</h1>
+    </header>
 
     <main>
-      <div id="author-container"></div>
-      <button class="btn" id="load-more-btn">Load More Authors</button>
+        <section id="author-container" aria-live="polite"></section>
+        <button class="btn" id="load-more-btn">Load More Authors</button>
     </main>
 
-    <script src="./script.js"></script>
-  </body>
+    <script src="./script.js" defer></script>
+</body>
 </html>
